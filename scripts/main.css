@@ -1,9 +1,9 @@
 .navbar {
-    height: 105px;
-    width: 105px;
+    height: 6.5rem;
+    width: 6.5rem;
     position: relative;
-    top: +65px;
-    left: +800px;
+    top: +4.5rem;
+    left: +50rem;
     align-items: center;
 }
 
