@@ -80,3 +80,19 @@
     background: var(--accent-bg);
     font-size: 1.5rem;
 }
+
+.footerCopyright {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, .1);
+    text-align: center;
+    cursor: default;
+    position: relative;
+    overflow: hidden
+}
+
+.footerCopyright span {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
