@@ -1,0 +1,22 @@
+.principal {
+    position: relative;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 2rem 0.2rem;
+    padding: 0.7rem;
+    background: var(--accent-bg);
+    font-size: 1.5rem;
+}
+
+.automat {
+    position: relative;
+    top: -110px;
+    left: auto;
+    margin: auto auto;
+    padding: 10px 5px;
+    background: black none repeat scroll 0 0;
+}
+
+.principalul {
+    background-color: black;
+}

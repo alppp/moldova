@@ -1,0 +1,82 @@
+.navbar {
+    height: 105px;
+    width: 105px;
+    position: relative;
+    top: +65px;
+    left: +800px;
+    align-items: center;
+}
+
+.logo {
+    height: 95%;
+    width: 95%;
+    position: relative;
+    left: -290px;
+    top: -40px;
+    align-items: left;
+}
+
+.maintext {
+    position: relative;
+    top: -230px;
+    left: auto;
+    font-size: 60px;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.primu {
+    --color-1: #0044af;
+    --color-2: #ffd300;
+    --color-3: #cd022b;
+}
+
+.doilea {
+    --color-1: #ffd300;
+    --color-2: #cd022b;
+    --color-3: #0044af;
+}
+
+.treilea {
+    --color-1: #cd022b;
+    --color-2: #0044af;
+    --color-3: #ffd300;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+    32% {
+        color: var(--color-1)
+    }
+    33% {
+        color: var(--color-2)
+    }
+    65% {
+        color: var(--color-2)
+    }
+    66% {
+        color: var(--color-3)
+    }
+    99% {
+        color: var(--color-3)
+    }
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.principal {
+    position: relative;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 2rem 0.2rem;
+    padding: 0.7rem;
+    background: var(--accent-bg);
+    font-size: 1.5rem;
+}

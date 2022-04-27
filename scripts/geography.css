@@ -1,0 +1,14 @@
+.imagine2 {
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.principal {
+    position: relative;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 2rem 0.2rem;
+    padding: 0.7rem;
+    background: var(--accent-bg);
+    font-size: 1.5rem;
+}
