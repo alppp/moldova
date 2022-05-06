@@ -3,25 +3,24 @@
     width: 6.5rem;
     position: relative;
     top: +4.5rem;
-    left: +50rem;
+    left: +40.9%;
     align-items: center;
 }
 
 .logo {
-    height: 95%;
-    width: 95%;
     position: relative;
-    left: -290px;
-    top: -40px;
-    align-items: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    top: -400%;
+    left: -5%;
+    margin: -10%;
 }
 
 .maintext {
     position: relative;
-    top: -230px;
+    top: auto;
     left: auto;
-    font-size: 60px;
-    padding: 20px;
     white-space: nowrap;
 }
 
